@@ -53,3 +53,7 @@ ul li img {
     height: 200px;
     object-fit: cover;
 }
+
+.icon-container {
+    width: auto; /* Ensures the width is adjusted based on the content */
+}
