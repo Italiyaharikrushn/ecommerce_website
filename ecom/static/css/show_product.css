@@ -5,10 +5,6 @@ body {
     padding: 0;
 }
 
-.head{
-    display: flex;
-}
-
 h1 {
     text-align: center;
     color: #333;
