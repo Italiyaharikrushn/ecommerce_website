@@ -5,59 +5,39 @@ body {
     padding: 0;
 }
 
+.img-height {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    height: 100%;
+}
+
 h1 {
     text-align: center;
     color: #333;
     padding: 10px;
 }
 
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 20px auto;
-    width: 80%;
-    max-width: 1000px;
-}
-
-ul li {
-    background: #ffffff;
-    margin-bottom: 20px;
-    padding: 20px;
+.product-list .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-ul li h2 {
-    margin: 0;
+.product-list .card-title {
     color: #007bff;
     font-size: 20px;
 }
 
-ul li p {
-    margin: 10px 0;
+.product-list .card-text {
     color: #555;
     font-size: 14px;
+    text-align: justify;
 }
 
-ul li img {
-    display: block;
-    margin: 10px 0;
-    border-radius: 5px;
-    max-width: 100%;
-    height: auto;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.img-height {
-    height: 200px;
-    object-fit: cover;
-}
-
-.icon-container {
-    width: auto;
-}
-
-.card{
-    height: 100%;
+.product-list .fw-bold {
+    font-size: 16px;
+    color: #000;
 }

@@ -1,4 +1,4 @@
-/* General Body Styling */
+/* Global Styles */
 body {
     font-family: Arial, sans-serif;
     background-color: #f8f9fa;
@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 
-/* Navbar Styling */
+/* Navbar Styles */
 .navbar-brand {
     font-size: 1.5rem;
     font-weight: bold;
@@ -21,11 +21,15 @@ body {
     margin-right: 5px;
 }
 
-/* Footer Styling */
+/* Product Section */
+.product-details {
+    padding: 2rem 0;
+}
+
+/* Footer Styles */
 .footer {
     background-color: #343a40;
     color: #fff;
-    text-align: center;
     padding: 15px 0;
 }
 
